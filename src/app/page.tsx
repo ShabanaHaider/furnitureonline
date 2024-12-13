@@ -21,7 +21,8 @@ export default function Home() {
           />
 
           {/* Rectangle Image */}
-          <div className="absolute top-1/2 right-[5%] transform -translate-y-1/2 w-[643px] h-[443px] bg-[#FFF3E3] flex flex-col justify-start items-start p-6">
+          <div className="absolute top-1/2 right-[5%] transform -translate-y-1/2 w-[643px] h-[443px]
+           bg-[#FFF3E3] flex flex-col justify-start items-start p-6">
             {/* Text Content */}
             <p className="text-sm text-gray-500 mb-4">New Arrival</p>
 
