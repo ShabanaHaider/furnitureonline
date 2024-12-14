@@ -33,23 +33,43 @@ export default function Navbar() {
 
         {/* Vector Icons */}
         <div className="flex ml-auto gap-[40px]">
+
+
           <div className="w-[28px] h-[28px]">
             <img src="/Vector (2).png" alt="Person" />
           </div>  
-          <div className="w-[28px] h-[28px]">
-            <img src="/Vector (3).png" alt="Search Bar" />
+
+
+
+
+
+          <div className="cursor pointer w-[28px] h-[28px]">
+            <Link href="/Productcomparison">
+            <img src="/Vector (3).png" alt="Search Bar" /></Link>
           </div>  
+
+
+
+
           <div className="w-[28px] h-[28px]">
             <img src="/Vector (4).png" alt="Wishlist" />
           </div>  
-          <div className="w-[28px] h-[28px]">
-            <img src="/Vector (5).png" alt="Cart" />
-          </div>  
+
+
+          <div className="cursor-pointer w-[28px] h-[28px]">
+          <Link href="/carddetails">
+
+            <img src="/Vector (5).png" alt="Cart" /> </Link>
+          </div> 
+
+
         </div>
       </div>
     </div>
   );
 }
+
+
 
 
 

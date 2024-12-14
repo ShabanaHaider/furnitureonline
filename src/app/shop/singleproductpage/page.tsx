@@ -1,6 +1,7 @@
 
 
   import Image from "next/image";
+  import Link from "next/link";
 
 export default function Shop() {
   return (
@@ -97,8 +98,23 @@ export default function Shop() {
 
       <div className="flex flex-row gap-4">   
 
-      <div className="w-[123px] h-[64px] mt-2 ml-[700px]"><img src="/minusplus1.png" alt="one" className="object-cover" /></div> 
-      <div className="w-[215px] h-[64px] mt-2"><img src="/Addtocart.png" alt="addtocart" className="object-cover" /></div> 
+      <div className="w-[123px] h-[64px] mt-2 ml-[700px]"><img src="/minusplus1.png" alt="one" className="object-cover" /></div>
+
+
+
+      {/* <div className="cursor-pointer w-[215px] h-[64px] mt-2"><img src="/Addtocart.png" alt="addtocart" className="object-cover" /></div>  */}
+
+
+
+      
+          <div className="cursor-pointer w-[215px] h-[64px] mt-2"><Link href="/shop/singleproductpage/cart">
+          <img src="/Addtocart.png" alt="addtocart" className="object-cover" /></Link>
+
+
+            
+          </div>  
+
+
       <div className="w-[215px] h-[64px] mt-2"><img src="/compare.png" alt="compare" className="object-cover" /></div>       
       
       </div> 

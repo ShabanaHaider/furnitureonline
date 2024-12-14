@@ -1,24 +1,103 @@
 // pages/checkout.tsx
-import React from "react";
+// import React from "react";
 
-const CheckoutPage = () => {
-  return (
-    <div className="font-poppins">
-        {/* Hero Section */}
-      <section
-        className="h-[316px] bg-cover bg-center flex items-center justify-center text-center relative"
-        style={{
-          backgroundImage: "url('/Images/bgaccount.png')",
-        }}
-      >
-        <div className="absolute inset-0 bg-white opacity-50"></div>
-        <div className="relative z-10">
-          <h1 className="text-[48px] font-[400] mb-2">My Account</h1>
-          <p className="text-[16px] font-[500] text-gray-500">
-            Home &gt; <span className="text-black text-[16px] font-[300]">My Account</span>
-          </p>
-        </div>
-      </section>
+// const CheckoutPage = () => {
+//   return (
+//     <div className="font-poppins">
+//         {/* Hero Section */}
+//       <section
+//         className="h-[316px] bg-cover bg-center flex items-center justify-center text-center relative"
+//         style={{
+//           backgroundImage: "url('/Images/bgaccount.png')",
+//         }}
+//       >
+//         <div className="absolute inset-0 bg-white opacity-50"></div>
+//         <div className="relative z-10">
+//           <h1 className="text-[48px] font-[400] mb-2">My Account</h1>
+//           <p className="text-[16px] font-[500] text-gray-500">
+//             Home &gt; <span className="text-black text-[16px] font-[300]">My Account</span>
+//           </p>
+//         </div>
+//       </section>
+
+
+import Image from "next/image";
+import React from "react";
+    import Link from "next/link";
+
+    export default function Shop() {
+      return (
+        <div className="w-full">
+          {/* Main Image Section */}
+          <div className="relative flex justify-center bg-white py-10">
+            <Image
+              src="/shopmainpic.png"
+              alt="shopmainpic"
+              width={1440}
+              height={316}
+              className="cursor-pointer"
+            />
+    
+            <div
+              className="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 
+              font-bold text-4xl text-black"
+            >
+              <Image
+                src="/Meubel House_Logos-05.png"
+                alt="MEUELLOGO"
+                width={77}
+                height={77}
+              />
+              <h2 className="absolute top-1/4 mt-16 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-bold text-4xl text-black">
+                CHECKOUT
+              </h2>
+            </div>
+    
+            <div className="flex absolute top-1/4 mt-20 justify-center items-center gap-6">
+              <div className="text-xs text-gray-800">
+                <p>Home</p>
+              </div>
+              <div>
+                <img src="/tinyrightarrow.png" alt="rightarrow" />
+              </div>
+
+
+              <div>
+                <p className="text-xs text-gray-800">Shop</p>
+
+              </div> 
+
+
+              <div>
+                <img src="/tinyrightarrow.png" alt="rightarrow" />
+              </div>
+
+
+              <div>
+                <p className="text-xs text-gray-800">Cart</p>
+
+              </div> 
+
+              <div>
+                <img src="/tinyrightarrow.png" alt="rightarrow" />
+              </div>
+
+
+              <div>
+                <p className="text-xs text-gray-800">Checkout</p>
+
+              </div> 
+
+
+
+
+
+
+              </div>
+
+              </div>
+
+
       {/* Billing Details */}
       <section className="flex flex-col lg:flex-row gap-12 ">
         {/* Left Section: Billing Details */}
@@ -197,7 +276,7 @@ const CheckoutPage = () => {
 
         {/* Right Section: Order Details */}
         <div className="flex-1 p-2 rounded-md ">
-          <h2 className="text-[32px] text-[36px] font-[600] mb-9">Product</h2>
+          <h2 className="text-[36px] font-[600] mb-9">Product</h2>
           <div className="mb-8 text-[16px]">
             <div className="flex justify-between mb-4 ">
               <p className="text-gray-400 mb-6">Angora Sofa x 1</p>
@@ -280,4 +359,3 @@ const CheckoutPage = () => {
   );
 };
 
-export default CheckoutPage;
