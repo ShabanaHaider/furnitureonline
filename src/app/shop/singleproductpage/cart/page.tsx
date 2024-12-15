@@ -148,7 +148,7 @@
 
 
 
-          <div className="grid grid-cols-4 items-center mt-4 w-full h-[270px] bg-[#f9f1e7]">
+  <div className="grid grid-cols-4 items-center mt-4 w-full h-[270px] bg-[#f9f1e7]">
   <div className="flex items-center space-x-4">
     <div className="w-[60px] h-[60px]">
       <img src="/trophy 1.png" alt="trophy" />
