@@ -1,7 +1,4 @@
- 
-
-
-// import Image from "next/image";
+//  import Image from "next/image";
 
 // export default function Shop() {
 //   return (
@@ -39,11 +36,7 @@
 //         </div>
 //       </div>
 
-//       {/* Main Content Section */}
-
-
-
-    
+//       {/* Main Content Section */}    
 
 
 // <div className="flex flex-row w-full h-[422px] bg-slate-300 items-start">
@@ -65,12 +58,7 @@
 //     <Image src="/sofa3small.png" alt="Three small sofas" width={280} height={177} />
 //   </div>
 
-
-
-
-
 // </div>
-
 
 //       {/* grid */}
 //       <div className="grid grid-cols-4 items-center mt-4 w-full h-[270px] bg-[#f9f1e7]">
@@ -112,11 +100,11 @@
 //         </div>
 //       </div>
 
-//       </div>     
-      
+//       </div>        
     
 //   );
 // }
+
 
 
 import Image from "next/image";
@@ -162,9 +150,8 @@ export default function Shop() {
 
 <div className="flex flex-row w-full h-[422px] bg-slate-300 items-start">
   {/* Text and View More Section */}
-  <div className="flex flex-col ml-12 mt-4">
-    {/* Larger Text */}
-    <p className="font-bold text-2xl">
+  <div className="flex flex-col ml-12 mt-4">    
+    <p className="font-bold w-[210px] h-[105px] text-2xl">
       Go to Product page for more Products
     </p>
 
@@ -174,38 +161,64 @@ export default function Shop() {
     </div>
   </div>
 
-  {/* Sofa Image */}
+  {/* Sofa Image 1*/}
   <div className="ml-12 mt-4">
     <Image src="/sofa3small.png" alt="Three small sofas" width={280} height={177} />
 
-
     <div className="w-[223px] h-[105px] bg-red-100">
-    <div>        
-      <h2 className="text-black mt-0 ml-[700px] text-4xl font-bold">Asgaard sofa</h2>
-      <p className="text-[#9f9f9f] mt-0 ml-[700px] text-2xl">Rs. 250,000.00</p> </div>  
+        
+      <h2 className="text-black mt-0 ml-[10px] w-[192px] h-[30px] font-semibold">Asgaard sofa</h2>
+      <p className="text-[#9f9f9f] mt-0 ml-[10px] w-[130px] h-[27px] text-sm">Rs. 235,000.00</p>   
 
-      <div className="flex flex-row">   
+      <div className="flex flex-row mt-0 ml-[10px] w-[124px] h-[20px]">
+        <div className="w-[20px] h-[20px] text-sm"><p>4.5</p></div>   
 
-      <div className="w-[20px] h-[20px] mt-1 ml-[700px]"><img src="/star.png" alt="star" className="object-cover" /></div> 
+      <div className="w-[20px] h-[20px] mt-1 ml-[10px]"><img src="/star.png" alt="star" className="object-cover" /></div> 
       <div className="w-[20px] h-[20px] mt-1"><img src="/star.png" alt="star" className="object-cover" /></div> 
       <div className="w-[20px] h-[20px] mt-1"><img src="/star.png" alt="star" className="object-cover" /></div> 
       <div className="w-[20px] h-[20px] mt-1"><img src="/star.png" alt="star" className="object-cover" /></div> 
       <div className="w-[20px] h-[20px] mt-1"><img src="/star.png" alt="star" className="object-cover" /></div> 
       <div className="w-[20px] h-[20px] mt-1"><img src="/star-half.png" alt="half star" className="object-cover" /></div> 
       <div className="w-[20px] h-[20px] mt-1 gap-1 "><img src="/verticleline.png" alt="stick" className="object-cover" /></div> 
-      <div className="text-[#9f9f9f] gap-1 font-normal"><p>Customer review</p></div>
+      <div className="text-[#9f9f9f] gap-1 text-xs"><p>204 review</p></div>
 
+      </div>
+      </div>
       </div>
 
 
 
 
+      {/* Sofa Image 2*/}
+  <div className="ml-12 mt-4">
+    <Image src="/outdoorsofaset.png" alt="Three small sofas" width={280} height={177} />
+
+    <div className="w-[223px] h-[105px] bg-red-100">
+        
+      <h2 className="text-black mt-0 ml-[10px] w-[192px] h-[30px] font-semibold">Outdoor Sofa Set</h2>
+      <p className="text-[#9f9f9f] mt-0 ml-[10px] w-[130px] h-[27px] text-sm">Rs. 250,000.00</p>   
+
+      <div className="flex flex-row mt-0 ml-[10px] w-[124px] h-[20px]">
+        <div className="w-[20px] h-[20px] text-sm"><p>4.5</p></div>   
+
+      <div className="w-[20px] h-[20px] mt-1 ml-[10px]"><img src="/star.png" alt="star" className="object-cover" /></div> 
+      <div className="w-[20px] h-[20px] mt-1"><img src="/star.png" alt="star" className="object-cover" /></div> 
+      <div className="w-[20px] h-[20px] mt-1"><img src="/star.png" alt="star" className="object-cover" /></div> 
+      <div className="w-[20px] h-[20px] mt-1"><img src="/star.png" alt="star" className="object-cover" /></div> 
+      <div className="w-[20px] h-[20px] mt-1"><img src="/star.png" alt="star" className="object-cover" /></div> 
+      <div className="w-[20px] h-[20px] mt-1"><img src="/star-half.png" alt="half star" className="object-cover" /></div> 
+      <div className="w-[20px] h-[20px] mt-1 gap-1 "><img src="/verticleline.png" alt="stick" className="object-cover" /></div> 
+      <div className="text-[#9f9f9f] gap-1 text-xs"><p>224 review</p></div>
+
+      </div>
+      </div>
+
+      <div className="w-[242px] h-[79px]"> <img src="/addnchooseproduct.png" alt="Add a product" className="object-cover" /> </div>
 
 
 
 
 
-  </div>
 
 
 
@@ -215,21 +228,14 @@ export default function Shop() {
 
 
 
+
+
+      
 
 
   </div>
 
 </div>
-
-
-
-
-
-
-
-
-
-
 
       {/* grid */}
       <div className="grid grid-cols-4 items-center mt-4 w-full h-[270px] bg-[#f9f1e7]">
@@ -271,41 +277,10 @@ export default function Shop() {
         </div>
       </div>
 
-      </div>     
-      
+      </div>        
     
   );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
