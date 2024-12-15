@@ -44,7 +44,7 @@ export default function Navbar() {
 
 
           <div className="cursor pointer w-[28px] h-[28px]">
-            <Link href="/Productcomparison">
+            <Link href="/productcomparison">
             <img src="/Vector (3).png" alt="Search Bar" /></Link>
           </div>  
 
