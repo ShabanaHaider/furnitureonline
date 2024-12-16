@@ -1,24 +1,4 @@
-// pages/checkout.tsx
-// import React from "react";
 
-// const CheckoutPage = () => {
-//   return (
-//     <div className="font-poppins">
-//         {/* Hero Section */}
-//       <section
-//         className="h-[316px] bg-cover bg-center flex items-center justify-center text-center relative"
-//         style={{
-//           backgroundImage: "url('/Images/bgaccount.png')",
-//         }}
-//       >
-//         <div className="absolute inset-0 bg-white opacity-50"></div>
-//         <div className="relative z-10">
-//           <h1 className="text-[48px] font-[400] mb-2">My Account</h1>
-//           <p className="text-[16px] font-[500] text-gray-500">
-//             Home &gt; <span className="text-black text-[16px] font-[300]">My Account</span>
-//           </p>
-//         </div>
-//       </section>
 
 
 import Image from "next/image";
