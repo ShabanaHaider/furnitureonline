@@ -28,7 +28,7 @@ return (
     </div>
     
 
-    <div className="justify-center overflow-x-hidden w-[1440px] h-[820px] bg-slate-100 mt-[100px] 
+    <div className="justify-center overflow-x-hidden w-[1440px] h-[820px] bg-white mt-[100px] 
 mx-auto relative">
 
 
@@ -100,11 +100,7 @@ mx-auto relative">
 
 
 
-    {/* <div className="cursor-pointer w-[215px] h-[64px] mt-2"><img src="/Addtocart.png" alt="addtocart" className="object-cover" /></div>  */}
-
-
-
-    
+        
         <div className="cursor-pointer w-[215px] h-[64px] mt-2"><Link href="/shop/singleproductpage/cart">
         <img src="/Addtocart.png" alt="addtocart" className="object-cover" /></Link>
 
@@ -160,9 +156,6 @@ mx-auto relative">
   Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine-tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.
 </li>
 </ul>
-
-
-
 
 
 <div className="flex justify-center items-center mt-2 gap-5">
