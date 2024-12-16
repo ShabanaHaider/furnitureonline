@@ -27,11 +27,7 @@ export default function Shop() {
             <p>Home</p>
           </div>
           <Image src="/tinyrightarrow.png" alt="Arrow" width={10} height={10} />
-          <div>
-            <p className="text-xs text-gray-800">Shop</p>
-          </div>
-          <Image src="/tinyrightarrow.png" alt="Arrow" width={10} height={10} />
-          <div>
+          <div>            
             <p className="text-xs text-gray-800">Product Comparison</p>
           </div>
         </div>

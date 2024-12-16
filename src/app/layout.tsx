@@ -1,34 +1,4 @@
-// import Navbar from "./components/Navbar";
 
-// import Footer from "./components/Footer";
-// import type { Metadata } from "next";
-// import { Inter } from "next/font/google";
-// import "./globals.css";
-
-
-
-// export default function RootLayout({
-//   children,
-// }: Readonly<{
-//   children: React.ReactNode;
-// }>) {
-//   return (
-//     <html lang="en">
-//       <body 
-//       // className={inter.className}
-      
-//       >
-//         <Navbar /> 
-        
-//         {children}
-
-//         <Footer />
-        
-        
-//         </body>
-//     </html>
-//   );
-// }
 
 
 import type { Metadata } from "next";
@@ -36,6 +6,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import MobileNavbar from "./components/MobileNavbar";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 export default function RootLayout({
   children,
@@ -57,7 +28,7 @@ export default function RootLayout({
 
         {children}
         {/* Uncomment the Footer if you want it to appear */}
-        {/* <Footer /> */}
+        <Footer /> 
       </body>
     </html>
   );

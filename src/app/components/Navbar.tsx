@@ -33,10 +33,12 @@ export default function Navbar() {
 
         {/* Vector Icons */}
         <div className="flex ml-auto gap-[40px]">
+          
 
 
           <div className="w-[28px] h-[28px]">
-            <img src="/Vector (2).png" alt="Person" />
+          <Link href="/logindetails">
+            <img src="/Vector (2).png" alt="Person" /></Link>
           </div>  
 
 
@@ -52,8 +54,16 @@ export default function Navbar() {
 
 
           <div className="w-[28px] h-[28px]">
-            <img src="/Vector (4).png" alt="Wishlist" />
+          <Link href="/shop/singleproductpage">
+            <img src="/Vector (4).png" alt="Wishlist" /></Link>
           </div>  
+
+         
+
+
+
+
+
 
 
           <div className="cursor-pointer w-[28px] h-[28px]">

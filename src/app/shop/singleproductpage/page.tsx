@@ -30,7 +30,7 @@ export default function Shop() {
       </div>
       
 
-      <div className="justify-center overflow-x-hidden w-[1440px] h-[820px] bg-slate-100 mt-[100px] 
+      <div className="justify-center overflow-x-hidden w-[1440px] h-[820px] bg-white mt-[100px] 
  mx-auto relative">
 
 
